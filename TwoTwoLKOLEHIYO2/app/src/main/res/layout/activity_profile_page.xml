@@ -4,35 +4,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/profile_image"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <TextView
         android:id="@+id/name_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="John Smith"
-        android:textStyle="bold"
-        android:textSize="20sp"
+        android:layout_marginTop="120dp"
         android:padding="16dp"
+        android:text="John Smith"
+        android:textSize="20sp"
+        android:textStyle="bold"
         tools:ignore="HardcodedText,VisualLintBounds" />
 
     <TextView
         android:id="@+id/grade_section_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
+        android:layout_marginTop="10dp"
         android:padding="16dp"
+        android:text="Grade and Section"
+        android:textSize="16sp"
         tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/strand_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
         android:padding="16dp"
+        android:text="Strand"
+        android:textSize="16sp"
         tools:ignore="VisualLintBounds" />
 
     <TextView
@@ -40,14 +39,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
+        android:text="ID Number"
         android:textSize="16sp"
         tools:ignore="VisualLintBounds" />
 
-    <Button
-        android:id="@+id/edit_profile_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        tools:ignore="VisualLintButtonSize" />
 
 </LinearLayout>
